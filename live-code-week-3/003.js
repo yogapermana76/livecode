@@ -36,11 +36,11 @@ output:
 function interval(start, finish) {
     var output = start;
     for(var i = 1; i <= finish; i++) {        
-        if(output < finish) {
+        if(output <= finish) {
             console.log(output)
         }
         output = output + i;
     }    
 }
 
-interval(6, 20);
+interval(6, 21);
